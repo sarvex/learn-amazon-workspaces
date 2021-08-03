@@ -1,3 +1,6 @@
+Best Practices AWS Whitepaper
+- https://d1.awsstatic.com/whitepapers/best-practices-deploying-amazon-workspaces.pdf
+
 Blog posts & articles - at https://aws.amazon.com/workspaces
 - Amazon WorkSpaces Flexible Workforce Offer Available on August 1, 2021
 - Anomaly Detection in Amazon WorkSpaces
