@@ -1,16 +1,22 @@
 # FAQ
 
+## What is it
+
 - Q: What is Amazon WorkSpaces?
 - A: Amazon WorkSpaces is a managed, secure cloud desktop service. You can use Amazon WorkSpaces to provision either Windows or Linux desktops in just a few minutes and quickly scale to provide thousands of desktops to workers across the globe. You can pay either monthly or hourly, just for the WorkSpaces you launch, which helps you save money when compared to traditional desktops and on-premises VDI solutions. Amazon WorkSpaces help you eliminate the complexity in managing inventory, OS versions and patches, and Virtual Desktop Infrastructure (VDI), which helps simplify your desktop delivery strategy. With Amazon WorkSpaces, your users get a fast, responsive desktop of their choice that they can access anywhere, anytime, from any supported device.
 
 - Q: What is an Amazon WorkSpace?
 - A: An Amazon WorkSpace is a cloud-based virtual desktop that can act as a replacement for a traditional desktop. A WorkSpace is available as a bundle of operating system, compute resources, storage space, and software applications that allow a user to perform day-to-day tasks just like using a traditional desktop.
 
+## How to Connect and Start
+
 - Q: How do I connect to my Amazon WorkSpace?
 - A: A user can connect to a WorkSpace from any supported device using the free Amazon WorkSpaces client application on supported devices including Windows and Mac computers, iPads, Android tablets, Android-compatible Chrome OS devices, or using Chrome or Firefox web browsers. Users will connect using credentials set up by an administrator or using their existing Active Directory credentials if you’ve chosen to integrate your Amazon WorkSpaces with an existing Active Directory domain. Once the user is connected to a WorkSpace they can perform all the usual tasks they would do on a desktop computer.
 
 - Q: How can I get started with Amazon WorkSpaces?
 - A: To get started with Amazon WorkSpaces, you will need an AWS account. You can use this account to sign into the AWS Management Console and you can then quickly provision Amazon WorkSpaces for yourself and any other users in your organization who might require one. To provision an Amazon WorkSpace, first select a user from your directory. Next, select an Amazon WorkSpaces bundle for the user. The Amazon WorkSpaces bundle specifies the resources you need, which desktop operating system you want to run, how much storage you want to use and the software applications you want prepackaged. Finally, choose a running mode for their Amazon WorkSpace – pick AlwaysOn if you want to use monthly billing, or AutoStop if you want to use hourly billing. Once your WorkSpace is provisioned, the user will receive an email with instructions for connecting to their WorkSpace. You can use this same process to provision multiple WorkSpaces at the same time.
+
+##  Which OS and/or Bundles?
 
 - Q: Which Amazon WorkSpaces bundles are available?
 - A: You can find the latest information on Amazon WorkSpaces bundles here.
@@ -21,8 +27,12 @@
 - Q: Which operating systems are available for use with Amazon WorkSpaces?
 - A: Amazon WorkSpaces offers Amazon Linux WorkSpaces built on Amazon Linux 2 LTS, or Windows 10 desktop experiences. The Windows 10 desktop experiences is powered by Windows Server 2016. If your organization is eligible to bring their own Windows Desktop licenses, you can run the Windows 10 Enterprise operating system on your Amazon WorkSpaces.
 
+## How to Map Volumes
+
 - Q: What are the root and user volumes mapped to for Amazon Linux WorkSpaces and Amazon WorkSpaces with Windows?
 - A: For Amazon Linux WorkSpaces, root volume is mapped to /, and user volume is mapped to /home. For Windows, root volume is mapped to C: drive, and user volume is mapped to D: drive
+
+## How to Map Users and Start Working
 
 - Q: Can I migrate users from an Amazon WorkSpaces Windows 7 bundle to a Windows 10 bundle?
 - A: Yes. WorkSpaces migrate enables WorkSpaces migration to a new bundle or compute type with the user volume data preserved. You could perform migrate operations to move your users to the Windows 10 Desktop experience. To get started, go to the Amazon WorkSpaces console, select the WorkSpace, click “Action > Migrate WorkSpaces”, then select a target bundle with the Windows 10 desktop experience.
@@ -48,6 +58,8 @@
 - Q: If I am located a significant distance from the region where my Amazon WorkSpace is located, will I have a good user experience?
 - A: If you are located more than 2000 miles from the regions where Amazon WorkSpaces is currently available, you can still use the service, but your experience may be less responsive. The easiest way to check performance is to use the Amazon WorkSpaces Connection Health Check Website. You can also refer to the Regional Products and Services page for details of Amazon WorkSpaces service availability by region.
 
+## Do public APIs exist?  What is logged?
+
 - Q: Does Amazon WorkSpaces offer a set of public APIs?
 - A: Yes, public APIs are available for creating and managing Amazon WorkSpaces programmatically. APIs are available via the AWS CLI and SDK; you can learn more about the APIs in the documentation.
 
@@ -56,6 +68,8 @@
 
 - Q: Is there Resource Permission support with the Amazon WorkSpaces APIs?
 - A: Yes. You can specify which Amazon WorkSpaces resources users can perform actions on. For details see the documentation.
+
+## Can I use the AWS Console? Can I deploy into AWS GovCloud?
 
 - Q: Do I need to use the AWS Management Console to get started with Amazon WorkSpaces?
 - A: To get started with Amazon WorkSpaces, you will need to register a directory with the WorkSpaces service. You can use AWS Management Console or Amazon WorkSpaces APIs to register a directory with the WorkSpaces service and then create and manage WorkSpaces.
