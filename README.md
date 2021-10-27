@@ -28,3 +28,4 @@ Search by title at https://aws.amazon.com/workspaces
 
 ## Link
 - Workspaces Cost Optimizer - https://github.com/aws-solutions/workspaces-cost-optimizer
+- Zero vs Thin Clients - www.teadici.com/product-finder/aws/zero-client
