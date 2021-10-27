@@ -25,3 +25,6 @@ Search by title at https://aws.amazon.com/workspaces
 - Solving common Amazon WorkSpaces connection issues to on-premises setups
 - Reporting on Amazon WorkSpaces deployments to gain data insights
 - Network Separation and Data Sanitization using Amazon WorkSpaces, Amazon AppStream 2.0, and Amazon Macie
+
+## Link
+- Workspaces Cost Optimizer - https://github.com/aws-solutions/workspaces-cost-optimizer
