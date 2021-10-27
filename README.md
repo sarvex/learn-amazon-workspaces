@@ -1,10 +1,11 @@
 # learning-aws-workspaces
 Companion Repo for 'Learning Amazon Workspaces'
 
-# Best Practices AWS Whitepaper
-- https://d1.awsstatic.com/whitepapers/best-practices-deploying-amazon-workspaces.pdf
+## Best Practices 
+- Getting Started - https://docs.aws.amazon.com/workspaces/latest/adminguide/getting-started.html
+- Whitepaper - https://d1.awsstatic.com/whitepapers/best-practices-deploying-amazon-workspaces.pdf
 
-Blog posts & articles - at https://aws.amazon.com/workspaces
+## Blog posts & articles - at https://aws.amazon.com/workspaces
 - Amazon WorkSpaces Flexible Workforce Offer Available on August 1, 2021
 - Anomaly Detection in Amazon WorkSpaces
 - Amazon WorkSpaces Work from Home Offer for 2021
