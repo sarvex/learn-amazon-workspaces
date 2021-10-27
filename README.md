@@ -1,13 +1,18 @@
 # learning-aws-workspaces
-Companion Repo for 'Learning Amazon Workspaces'
+Companion Repo for LinkedIn Learning course **'Learning Amazon Workspaces'**.  
+What is Workspaces?  See diagram below.  
 
-<img src="https://github.com/lynnlangit/learn-amazon-workspaces/blob/main/images/workspaces-arch.png" width=800>
+<img src="https://github.com/lynnlangit/learn-amazon-workspaces/blob/main/images/Workspaces-1-2-3.png" width=800>
+
 
 ## Best Practices 
 - Getting Started - https://docs.aws.amazon.com/workspaces/latest/adminguide/getting-started.html
 - Whitepaper - https://d1.awsstatic.com/whitepapers/best-practices-deploying-amazon-workspaces.pdf
 - Clients for Amazon Workspaces - https://clients.amazonworkspaces.com/
 - Portal example: shows Self-Service capability to end-users for WorkSpaces - https://github.com/rajeshkumarramaswamy/aws-workspaces
+- Example Workspaces architecture shown below
+
+<img src="https://github.com/lynnlangit/learn-amazon-workspaces/blob/main/images/workspaces-arch.png" width=800>
 
 ## Blog posts & articles
 Search by title at https://aws.amazon.com/workspaces  
