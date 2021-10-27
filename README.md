@@ -1,7 +1,7 @@
 # learning-aws-workspaces
 Companion Repo for 'Learning Amazon Workspaces'
 
-<img src="lynnlangit/learn-amazon-workspaces/images/workspaces-arch.png" width=800>
+<img src="https://github.com/lynnlangit/learn-amazon-workspaces/blob/main/images/workspaces-arch.png" width=800>
 
 ## Best Practices 
 - Getting Started - https://docs.aws.amazon.com/workspaces/latest/adminguide/getting-started.html
