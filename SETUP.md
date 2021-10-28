@@ -12,6 +12,9 @@
 - Create Simple AD
 - Creates associated WorkDocs by default (note size of volumes)
 - WAIT - verify Simple AD and then REGISTER it
+- register directory options
+    - select/configure subnet(s)
+    - configurations (self-service permissions, enable WorkDocs - "ON" by default)
 - Create WorkSpaces users, 
     - select bundle (OS)
         - AWS Linux (Value [free tier] | Std)
@@ -20,6 +23,10 @@
     - select protocol
         - PCoIP - default
         - WorkSpaces Streaming Protocol (WSP) - for web-access for Windows-based workloads, smart card auth and/or using webcams
+    - select 'running mode'
+        - test with 'AutoStop' - stops after 1 hour of inactivity
+        - can set 'AlwaysOn' - bills monthly
+    - configure Encryption (root and/or user volume encryption can be enabled)
 - WAIT - takes 30+ minutes
 - Can set up WorkDocs -> 'My Applications' to add authorized applications (from your own bundles or AWS Marketplace)
 - Get WorkSpaces client
