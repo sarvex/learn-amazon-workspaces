@@ -22,8 +22,9 @@
         - WorkSpaces Streaming Protocol (WSP) - for web-access for Windows-based workloads, smart card auth and/or using webcams
 - WAIT - takes 30+ minutes
 - Can set up WorkDocs -> 'My Applications' to add authorized applications (from your own bundles or AWS Marketplace)
-- Download WorkSpaces client for your laptop OS (Mac, Windows, Linux, tablet...) - [link](https://clients.amazonworkspaces.com/) --or--
-- Launch via web client
+- Get WorkSpaces client
+    - Download WorkSpaces client for your laptop OS (Mac, Windows, Linux, tablet...) - [link](https://clients.amazonworkspaces.com/) --or--
+    - Launch via web client (Windows OS and select AWS regions only | requires additional configuration)
 
 ## Verification
 - Login to WorkDocs with the Administrator username and password (set during WorkDocs setup)
