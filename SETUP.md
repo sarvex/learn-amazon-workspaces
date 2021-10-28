@@ -15,11 +15,12 @@
 - register directory options
     - select/configure subnet(s)
     - configurations (self-service permissions, enable WorkDocs - "ON" by default)
-- Create WorkSpaces users, 
+- Create WorkSpaces users 
     - select bundle (OS)
         - AWS Linux (Value [free tier] | Std)
         - Windows (Value | Std | Perf | Power Pro | Graphics)
             - Can include Office
+    - assign selected bundle types to AD users (configure root | volume sizes - default is 80 | 50)
     - select protocol
         - PCoIP - default
         - WorkSpaces Streaming Protocol (WSP) - for web-access for Windows-based workloads, smart card auth and/or using webcams
