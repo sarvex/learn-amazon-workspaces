@@ -12,10 +12,14 @@
 - Create Simple AD
 - Creates associated WorkDocs by default (note size of volumes)
 - WAIT - verify Simple AD and then REGISTER it
-- Create WorkSpaces users, select bundle (OS)
-    - AWS Linux (Value [free tier] | Std)
-    - Windows (Value | Std | Perf | Power Pro | Graphics)
-        - Can include Office
+- Create WorkSpaces users, 
+    - select bundle (OS)
+        - AWS Linux (Value [free tier] | Std)
+        - Windows (Value | Std | Perf | Power Pro | Graphics)
+            - Can include Office
+    - select protocol
+        - PCoIP - default
+        - WorkSpaces Streaming Protocol (WSP) - for web-access for Windows-based workloads, smart card auth and/or using webcams
 - WAIT - takes 30+ minutes
 - Can set up WorkDocs -> 'My Applications' to add authorized applications (from your own bundles or AWS Marketplace)
 - Download WorkSpaces client for your laptop OS (Mac, Windows, Linux, tablet...) - [link](https://clients.amazonworkspaces.com/) --or--
