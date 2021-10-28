@@ -14,7 +14,7 @@ What is Workspaces?  See diagram below.
 
 <img src="https://github.com/lynnlangit/learn-amazon-workspaces/blob/main/images/workspaces-arch.png" width=800>
 
-## Blog posts & articles
+## AWS Blog posts & articles
 Search by title at https://aws.amazon.com/workspaces  
 - Amazon WorkSpaces Flexible Workforce Offer Available on August 1, 2021
 - Anomaly Detection in Amazon WorkSpaces
@@ -32,6 +32,6 @@ Search by title at https://aws.amazon.com/workspaces
 - Reporting on Amazon WorkSpaces deployments to gain data insights
 - Network Separation and Data Sanitization using Amazon WorkSpaces, Amazon AppStream 2.0, and Amazon Macie
 
-## Link
+## Linked external Repos and Blog posts
 - Workspaces Cost Optimizer - https://github.com/aws-solutions/workspaces-cost-optimizer
 - Zero vs Thin Clients - www.teadici.com/product-finder/aws/zero-client
