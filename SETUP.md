@@ -17,7 +17,7 @@
 - register directory options
     - select/configure subnet(s)
     - configurations (self-service permissions, enable WorkDocs - "ON" by default)
-    - 
+    
 ### Create WorkSpace Users and WorkSpaces
 - Create WorkSpaces users 
     - select bundle (OS)
