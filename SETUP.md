@@ -9,12 +9,16 @@
     - **AppStreaming** for no config App Streaming (Browser, Eclipse, others...)
 
 ## Order of Setup
+
+### Create / Associate & Configure  User Directory
 - Create Simple AD
 - Creates associated WorkDocs by default (note size of volumes)
 - WAIT - verify Simple AD and then REGISTER it
 - register directory options
     - select/configure subnet(s)
     - configurations (self-service permissions, enable WorkDocs - "ON" by default)
+    - 
+### Create WorkSpace Users and WorkSpaces
 - Create WorkSpaces users 
     - select bundle (OS)
         - AWS Linux (Value [free tier] | Std)
@@ -29,12 +33,14 @@
         - can set 'AlwaysOn' - bills monthly
     - configure Encryption (root and/or user volume encryption can be enabled)
 - WAIT - takes 30+ minutes
+
+### Optional Configs - WorkDocs and MyApps
 - Can set up WorkDocs -> 'My Applications' to add authorized applications (from your own bundles or AWS Marketplace)
 - Get WorkSpaces client
     - Download WorkSpaces client for your laptop OS (Mac, Windows, Linux, tablet...) - [link](https://clients.amazonworkspaces.com/) --or--
     - Launch via web client (Windows OS and select AWS regions only | requires additional configuration)
 
-## Verification
+### Installation Verification
 - Login to WorkDocs with the Administrator username and password (set during WorkDocs setup)
 - Login to WorkSpaces via the Web console --or-- download the WorkSpaces clients for your laptop OS
     - Access with registration code
