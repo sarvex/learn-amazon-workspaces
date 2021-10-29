@@ -9,6 +9,7 @@ What is WorkSpaces?  See diagram below for overview
 - See Getting Started Guide - [link](https://docs.aws.amazon.com/workspaces/latest/adminguide/getting-started.html)
 - Read Whitepaper - how to deploy - [link](https://d1.awsstatic.com/whitepapers/best-practices-deploying-amazon-workspaces.pdf)
 - Get client(s) for Amazon WorkSpaces - [link](https://clients.amazonworkspaces.com/)
+- Use WorkSpaces cost optimizer tool - [link](https://github.com/aws-solutions/workspaces-cost-optimizer)
 - See Portal example: shows Self-Service capability to end-users for WorkSpaces - [link](https://github.com/rajeshkumarramaswamy/aws-workspaces)
 - Review example WorkSpaces architecture (shown below)  
 
