@@ -1,5 +1,5 @@
-# Learning AWS WorkSpaces
-Companion Repo for LinkedIn Learning course **'Learning Amazon WorkSpaces'**.  --> coming in 2022  
+# Learn AWS WorkSpaces
+Companion Repo for LinkedIn Learning course **'Learn Amazon WorkSpaces'**.  --> coming in 2022  
 What is WorkSpaces?  See diagram below for overview  
 
 <img src="https://github.com/lynnlangit/learn-amazon-workspaces/blob/main/images/Workspaces-1-2-3.png" width=800>
